@@ -1,0 +1,20 @@
+{
+  "skill_name": "android-studio-gemini",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我想在Android Studio中使用Gemini AI帮我写代码，怎么启用？",
+      "expected_output": "应该包含：更新到Iguana版本、登录Google账号、配置代理（如需要）、使用Gemini面板"
+    },
+    {
+      "id": 2,
+      "prompt": "我无法登录Android Studio的Gemini，提示授权失败，应该怎么解决？",
+      "expected_output": "应该包含：配置手动代理、检查代理IP和端口、填写Login和Password"
+    },
+    {
+      "id": 3,
+      "prompt": "怎样获取Gemini API Key并在Android项目中使用？",
+      "expected_output": "应该包含：在Google AI Studio获取Key、在local.properties配置、在build.gradle添加依赖、Kotlin代码示例"
+    }
+  ]
+}
